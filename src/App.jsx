@@ -1,11 +1,14 @@
-import './App.css'
+import Hero from "./conponents/Hero"
+import NavBar from "./conponents/NavBar"
+
 
 function App() {
   
 
   return (
     <>
-      <h1>ola</h1>
+      <NavBar/>
+      <Hero/>
     </>
   )
 }
